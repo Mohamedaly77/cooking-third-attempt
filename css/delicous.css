@@ -189,6 +189,13 @@ html {
     padding: 10px;
     border: none;
     border-radius: 30px;
+    font-weight: 700;
+}
+
+@media (max-width:767px) {
+    .nav-bar .button {
+        width: 133%;
+    }
 }
 
 @media (max-width:991px) {
@@ -223,6 +230,15 @@ html {
     font-size: 40px;
 }
 
+@media (max-width:767px) {
+    .landing h1 {
+        margin-top: 200px;
+
+    }
+}
+
+
+
 .landing span {
     color: var(--main-color--);
 }
@@ -234,6 +250,13 @@ html {
     line-height: 2;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+}
+
+@media (max-width:767px) {
+    .landing p {
+        margin-top: 100px;
+        line-height: 1.2;
+    }
 }
 
 .menu {
@@ -251,6 +274,7 @@ html {
     width: 150px;
 
 }
+
 
 
 
@@ -483,6 +507,12 @@ html {
     background-color: white;
     border: 1px solid var(--main-color--);
     padding-left: 10px;
+}
+
+@media (max-width:767px) {
+    .tasty-menu .menu-list ul a {
+        margin-top: 20px;
+    }
 }
 
 .tasty-menu .menu-cantainer {
